@@ -1,0 +1,80 @@
+name: flutter_themer
+description: Flutter App Themer.
+
+publish_to: 'none' 
+
+version: 1.0.0+11
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # State
+  provider: ^6.0.5
+  path_provider: ^2.0.14
+  
+  # Log
+  logger: ^2.3.0
+
+  # Preview 
+  device_preview: ^1.2.0
+  flutter_highlight: ^0.7.0
+
+  # Colors
+  hexcolor: ^3.0.1
+  flutter_colorpicker: ^1.0.3
+
+  # Fonts
+  font_awesome_flutter: ^10.4.0
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.1
+
+  # Analytics
+  firebase_analytics_web: ^0.5.4+1
+  firebase_core: ^3.5.0
+  firebase_analytics: ^11.3.2
+  firebase_crashlytics: ^4.1.2
+
+  # Package Info
+  package_info_plus: ^8.0.0
+
+  # Html
+  flutter_widget_from_html: ^0.15.0
+
+  # Preferences
+  shared_preferences: ^2.3.2
+
+  url_launcher: ^6.1.10
+  chewie: ^1.5.0
+
+dev_dependencies:
+  flutter_test: 
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  very_good_analysis: ^6.0.0
+
+flutter:
+
+  fonts:
+    - family: Courier
+      fonts:
+        - asset: assets/fonts/courier.ttf
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/files/
+    - assets/files/app/
+    - assets/files/usages/
+    - assets/files/configuration/
+    - assets/files/generated/
+    - assets/images/
+
+ 
